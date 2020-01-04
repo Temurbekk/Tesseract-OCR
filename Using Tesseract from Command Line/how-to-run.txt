@@ -1,0 +1,8 @@
+For Mac:
+    You need to install HomeBrew:
+        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    Install Tesseract using HomeBrew:
+        brew install tesseract
+    Now you can convert the image into text with following command:
+        tesseract <name of the image to be read> <the output text file>
+        example ->  tesseract text.png output
